@@ -1,0 +1,36 @@
+{
+  "name": "single-session-middleware",
+  "version": "1.0.0",
+  "description": "Keep a single and latest session in the server end.",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "express",
+    "single",
+    "session",
+    "middleware",
+    "set-cookie",
+    "cookie"
+  ],
+  "author": "zuojiang.wang@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "cookie": "^0.3.1",
+    "esm": "^3.0.44"
+  },
+  "devDependencies": {
+    "express": "^4.16.3",
+    "express-session": "^1.15.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuojiang/single-session-middleware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zuojiang/single-session-middleware/issues"
+  },
+  "homepage": "https://github.com/zuojiang/single-session-middleware#readme"
+}
